@@ -10,10 +10,10 @@ import { Map,
   Rectangle } from 'react-leaflet';
 import LayersControl2, { ControlledLayerItem } from "./LayerControl2";
 const center = [51.505, -0.09];
-const rectangle = [[51.49, -0.08], [51.5, -0.06]];
+const rectangle = [[16.07425, 108.21846], [16.07525, 108.21946]];
 
 function App() {
-  const position = [16.08374, 108.23136];
+  const position = [16.07425, 108.21846];
   return (
     <div className="App">
       <Map style={{ height: "100vh" }} center={position} zoom={13}>
