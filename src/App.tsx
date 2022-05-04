@@ -16,7 +16,7 @@ function App() {
   const position = [16.07425, 108.21846];
   return (
     <div className="App">
-      <Map style={{ height: "100vh" }} center={position} zoom={13}>
+      <Map style={{ height: "100vh" }} center={position} zoom={18}>
         <LayersControl2 position="topright">
           <ControlledLayerItem
             checked={true}
